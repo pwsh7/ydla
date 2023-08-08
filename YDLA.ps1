@@ -25,6 +25,7 @@ function Set-Format {
 	}
 }
 
+# lmao
 
 function Check-Format {
 	Write-Host "Output will be: " 
@@ -86,6 +87,7 @@ while ($confirm -ne "y") {
 }
 
 # Final Run
+Write-Output ""
 Write-Output ""
 Write-Output "Running Command:   ./youtube-dl.exe $format $URL '--%' $options"
 & ./youtube-dl.exe $format $URL '--%' $options #Final full command used on youtube-dl. I have no idea why '--%' is required in there but without it, it won't work. Got it from an obscure StackOverflow comment
