@@ -1,9 +1,8 @@
 # =====================================
-#        Script Author: Snixf
-#        Github.com/snixf
+#        Github.com/pwsh7
 # =====================================
 #        Version: 2.2
-#       PS Version: 7.x.x
+#       PS Version needed: 7.x.x
 # =====================================
 
 #script starts here
